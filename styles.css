@@ -68,8 +68,8 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #2969c8; outline-off
 .direction-card > p { max-width: 250px; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
 .card-meta { display: flex; align-items: center; justify-content: space-between; padding-top: 13px; border-top: 1px solid var(--line); font: 9px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
 .card-afterglow { --card-bg: #efc5b5; }
-.card-velvet { --card-bg: #1d1b28; color: #f6f0e5; }
-.card-velvet .card-meta { border-color: rgba(255,255,255,.25); }
+.card-velvet { --card-bg: #1d1b28; }
+.card-velvet .card-meta { border-color: var(--line); }
 .card-orbit { --card-bg: #d8e6d4; }
 .card-static { --card-bg: #e7e5d8; }
 .card-art-afterglow { background: var(--card-bg); }
